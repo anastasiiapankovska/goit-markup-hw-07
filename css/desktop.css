@@ -1,0 +1,93 @@
+@media screen and (min-width: 1200px) {
+    .container{
+    max-width: 1200px;
+    
+    }
+/* =============HERO======================== */
+
+
+.hero{
+    
+    width: 1440px; 
+    height: 600px;
+    background-image:linear-gradient(to right, RGBA(46,47,66,0.7),RGBA(46,47,66,0.7)),
+    url(../img/about/decktop/dcktop1x.jpg);
+    background-size:1440px 600px;
+    padding: 192px 0;
+    
+}
+@media screen and (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero{
+        background-image:linear-gradient(to right, RGBA(46,47,66,0.7),RGBA(46,47,66,0.7)),
+        url(../img/about/decktop/decktop2x.jpg);
+    }
+}
+.hero-title{
+    
+font-size: 56px;
+line-height: 1;
+
+}
+
+    /* ===============MENU================== */
+
+    .email{
+        margin-right: 40px;
+    }
+
+    .menu-tablet{
+        margin-left: 76px;
+        }
+
+/* ==============ASIDE==================== */
+
+.about{
+    display: flex;
+    margin-left: calc(-1 * var(--cards-set-gap));
+    margin-top: calc(-1 * var(--cards-set-gap));
+}
+
+.about-card-job{
+    flex-basis: calc(100% / 4 - var(--cards-set-gap));
+        margin-left: var(--cards-set-gap);
+        margin-top: var(--cards-set-gap);
+} 
+
+.features{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+/* =========Company====================== */
+
+.compani-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.incons-item{
+    width: 168px;
+    height: 88px;
+}
+
+    /* =============FOOTER=============== */
+    .content-footer{
+    display: flex;
+}
+ 
+.footer-head{
+    padding-left: 0px;
+    margin-right: 120px;
+    margin-bottom: 0px;
+}
+
+
+}
+
+

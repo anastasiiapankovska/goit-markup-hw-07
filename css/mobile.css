@@ -1,0 +1,62 @@
+@media screen and (min-width:  468px) {
+    .container{
+    max-width: 428px;
+    }
+/* ===========HERO================= */
+.mob-socail{
+    gap: 56px;
+}
+.mob-phone-namber{
+    font-size: 36px;
+    font-family: 600;
+    line-height: 1.1;
+}
+/* ===============FOOTER======================= */
+    .subscribe-form-input{
+        width:398px;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .btn-subscribe-footer{
+        margin-top: 16px;
+    }
+
+    .compani-tumb{
+        width:calc((100% - 2 * 16px) / 2) ; }
+        
+        .what-we-do{
+            display: none;
+            }
+            
+        .icons-bkcolor{
+            display: none;
+        }
+    
+        .info{
+            font-weight: 500;
+        }
+
+        .menu {
+            display: none;
+        }
+        
+        .contact{
+            display: none;
+        }
+
+        .menu-icon{
+            display: flex;
+            margin-left: auto;
+            align-items: center;
+        }
+        
+        .btn-menu{
+            display: flex;
+            background-color: transparent;
+            border: none;
+            fill: var(--brand-color);
+            
+        }
+}

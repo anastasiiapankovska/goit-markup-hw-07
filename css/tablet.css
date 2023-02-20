@@ -1,0 +1,147 @@
+@media screen and (min-width: 768px) {
+    .container{
+    max-width: 768px;
+    }
+
+    /* ======HERO===================== */
+
+    .hero{
+        width: 768px; 
+        height: 436px;
+        background-image:linear-gradient(to right, RGBA(46,47,66,0.7),RGBA(46,47,66,0.7)),
+        url(../img/about/tablet/tablet1x.jpg);
+        background-size:768px 436px;
+
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero{
+            background-image:linear-gradient(to right, RGBA(46,47,66,0.7),RGBA(46,47,66,0.7)),
+            url(../img/about/tablet/tablet2x.jpg);
+        }
+}
+.hero-title{
+    font-size: 56px;
+    line-height: 1;
+    margin: 0 auto 40px auto;
+}
+
+/* ===========Aside===================*/
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--cards-set-gap));
+    margin-top: calc(-1 * var(--cards-set-gap));
+    
+    
+}
+
+.about-card-job{
+    flex-basis: calc(100% / 2 - var(--cards-set-gap));
+        margin-left: var(--cards-set-gap);
+        margin-top: var(--cards-set-gap);
+    
+
+}
+
+
+.features{
+    text-align: start;
+}
+
+/* =========Team====================== */
+
+.teams{
+    row-gap: 64px;
+    column-gap: 24px;
+}
+
+/* =========Company====================== */
+
+.compani-list{
+    row-gap: 72px;
+    column-gap: 24px;
+} 
+
+.compani-tumb{
+    width:calc((100% - 2 * 24px) / 3) ; 
+}
+
+.incons-item{
+
+    height: 88px;
+}
+    /* =============FOOTER=============== */
+    
+    .content-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-head{
+        text-align: left;
+        padding-left: 108px;
+        margin-right: 24px;
+    }
+
+    .social-media{
+        text-align: left;
+    }
+
+    .subscribe{
+        text-align: left;
+        padding-left: 108px;
+    }
+
+    .modal-form-subscribe{
+        display: flex;
+        flex-direction: row;
+        padding-left: 108px;
+    }
+
+    .subscribe-form-input{
+        width: 264px;
+        margin-right: 24px;
+        
+    }
+
+}
+
+@media screen and (min-width:767px) and (max-width:1199px){
+    .mini-container{
+        width: 555px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .what-we-do{
+        display: none;
+    }
+
+    .icons-bkcolor{
+        display: none;
+    }
+
+    .menu-tablet{
+        margin-left: 125px;
+        }
+
+    .contact{
+        display: inline-block;
+        margin-right: 0;
+        }
+
+        
+}
+
+@media (min-width: 768px) {
+    .modal {
+        width: 408px;
+        min-height: 576px;
+        padding : 72px 24px  24px 24px;
+    }
+  }
