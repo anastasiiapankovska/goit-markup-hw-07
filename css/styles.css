@@ -35,7 +35,6 @@ button{
     cursor: pointer;
 }
 .container {
-   
     margin-right: auto;
     margin-left: auto;
     padding-left: 16px;
@@ -88,11 +87,14 @@ body {
     color:var(--second-brand-color);
 }
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .page-header{
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav{
@@ -267,15 +269,9 @@ body {
     color: var(--second-brand-color);
 }
 
-.email
-{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+.email{
         color: #434455;
         background-color: #FFFFFF;
-        
         transition-property: color;
         transition-duration:var(--transition-duration) ;
         transition-timing-function:var(--transition-timing-function);
@@ -287,10 +283,6 @@ body {
 }
 
 .phone-namber{
-
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
     transition-property: color;
@@ -318,7 +310,7 @@ body {
 /*======================HERO==============*/
 
 .hero{
-    width: 428px;
+    max-width: 428px;
     height: 432px;
     background-color: #434455;
     text-align: center;
@@ -329,8 +321,18 @@ body {
     
     background-image: linear-gradient(to right, RGBA(46,47,66,0.7),RGBA(46,47,66,0.7)),    
     url(../img/about/mobi/mobi1x.jpg);
-    background-size: 428px 432px;
+    background-size: cover;
 
+}
+
+@media screen and (min-device-pixel-ratio: 1),
+(-webkit-min-device-pixel-ratio: 21),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero{
+            background-image:linear-gradient(to right, RGBA(46,47,66,0.7),RGBA(46,47,66,0.7)),
+            url(../img/about/mobi/mobi1x.jpg);
+        }
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -380,8 +382,8 @@ body {
 
 /* ==============ASIDE================ */
 .aside{
-    padding-top: 120px;
-    padding-bottom: 120px; 
+    padding-top: 96px;
+    padding-bottom: 96px; 
 }
 
 
@@ -415,8 +417,6 @@ body {
     text-align: center;
 }
 .info{
-
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -603,8 +603,8 @@ margin-bottom: 72px;
 }
 
 
-.compani-tumb:hover,
-.compani-tumb-tumb:focus{
+.incons-item:hover,
+.incons-item:focus{
     color:var(--second-brand-color);
 
 }

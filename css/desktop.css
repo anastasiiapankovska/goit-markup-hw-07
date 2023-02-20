@@ -3,12 +3,32 @@
     max-width: 1200px;
     
     }
+
+    .current::after{
+        bottom: -24px;
+    }
+
+    .email
+{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 0;
+    }
+    
+        .phone-namber{
+
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        }
 /* =============HERO======================== */
 
 
 .hero{
     
-    width: 1440px; 
+    max-width: 1440px; 
     height: 600px;
     background-image:linear-gradient(to right, RGBA(46,47,66,0.7),RGBA(46,47,66,0.7)),
     url(../img/about/decktop/dcktop1x.jpg);

@@ -59,4 +59,7 @@
             fill: var(--brand-color);
             
         }
+        .info{
+            font-weight: 500;
+        }
 }
